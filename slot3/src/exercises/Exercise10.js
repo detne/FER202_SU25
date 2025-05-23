@@ -9,7 +9,7 @@ const Exercise10 = () => {
   const [search, setSearch] = useState("");
 
   const filtered = employees.filter(e =>
-    e.name.toLowerCase().includes(search.toLowerCase())
+    e.name.toUpperCase().startsWith(search.toUpperCase())
   );
 
   return (

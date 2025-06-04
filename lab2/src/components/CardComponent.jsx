@@ -4,6 +4,7 @@ import menu2 from "../assets/images/menu2.jpg";
 import menu3 from "../assets/images/menu3.jpg";
 import menu4 from "../assets/images/menu4.jpg";
 
+// Hiển thị danh sách menu pizza
 function CardComponent() {
   return (
     <div className="container p-5">

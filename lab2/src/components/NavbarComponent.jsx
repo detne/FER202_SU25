@@ -2,8 +2,7 @@ import {Nav, Navbar, Form, FormControl, Button} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 const NavbarComponent = () => {
     return (
-        <Navbar expand="lg" className="navbar-dark bg-dark">
-            <div className="container">
+        <Navbar className="container">
             <Navbar.Brand href="#">Pizza House</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarSupportedContent"/>
             <Navbar.Collapse id="navbarSupportedContent">
@@ -17,7 +16,6 @@ const NavbarComponent = () => {
                     <Button variant="outline-success" type="submit" className="mx-2">Search</Button>
                 </Form>
             </Navbar.Collapse>
-            </div>
         </Navbar>
     );
 }

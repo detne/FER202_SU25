@@ -1,3 +1,3 @@
 function Description({ text }) {
-    return <p>{text}</p>;
-  }
+  return <p>{text}</p>;
+}

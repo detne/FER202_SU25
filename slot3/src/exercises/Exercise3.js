@@ -1,16 +1,20 @@
-import React from 'react';
+import React from "react";
 
 const Exercise3 = () => {
   const employees = [
     { id: 1, name: "Anna", department: "HR" },
     { id: 2, name: "Brian", department: "IT" },
-    { name: "Ann", department: "Finance" }
+    { name: "Ann", department: "Finance" },
   ];
 
   return (
     <table border="1">
       <thead>
-        <tr><th>ID</th><th>Name</th><th>Department</th></tr>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Department</th>
+        </tr>
       </thead>
       <tbody>
         {employees.map((e, index) => (

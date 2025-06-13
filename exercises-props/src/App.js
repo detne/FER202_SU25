@@ -24,7 +24,7 @@ function App() {
           {/*Duyệt qua mảng students và truyền từng đối tượng student vào Student Card*/}
           {students.map((student, index) => (
             <Col key={index} sm={12} md={4}>
-              <StudentCard student={student} /> 
+              <StudentCard student={student} />
             </Col>
           ))}
         </Row>

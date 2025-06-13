@@ -1,9 +1,9 @@
 function PersonDetail() {
-    const person = {
-        name: "Alice",
-        age: 25,
-        job: "IT"
-    };
+  const person = {
+    name: "Alice",
+    age: 25,
+    job: "IT",
+  };
   return (
     <div>
       <h2>{person.name}</h2>

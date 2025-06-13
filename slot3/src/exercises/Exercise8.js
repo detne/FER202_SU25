@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Exercise8 = () => {
   const employees = [
     { name: "Anna", department: "HR" },
     { name: "Brian", department: "IT" },
     { name: "Clara", department: "HR" },
-    { name: "David", department: "IT" }
+    { name: "David", department: "IT" },
   ];
 
   const grouped = employees.reduce((acc, emp) => {
@@ -20,7 +20,9 @@ const Exercise8 = () => {
         <div key={dept}>
           <h3>{dept}</h3>
           <ul>
-            {emps.map((e, i) => <li key={i}>{e.name}</li>)}
+            {emps.map((e, i) => (
+              <li key={i}>{e.name}</li>
+            ))}
           </ul>
         </div>
       ))}

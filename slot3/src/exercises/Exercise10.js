@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Exercise10 = () => {
-  const employees = [
-    { name: "Anna" },
-    { name: "Brian" },
-    { name: "Clara" }
-  ];
+  const employees = [{ name: "Anna" }, { name: "Brian" }, { name: "Clara" }];
   const [search, setSearch] = useState("");
 
-  const filtered = employees.filter(e =>
-    e.name.toUpperCase().startsWith(search.toUpperCase())
+  const filtered = employees.filter((e) =>
+    e.name.toUpperCase().startsWith(search.toUpperCase()),
   );
 
   return (

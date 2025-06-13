@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Exercise5 = () => {
-  const employees = [
-    { name: "Anna" },
-    { name: "Brian" },
-    { name: "Clara" }
-  ];
+  const employees = [{ name: "Anna" }, { name: "Brian" }, { name: "Clara" }];
 
   return (
     <select>

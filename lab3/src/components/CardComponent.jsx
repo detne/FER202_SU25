@@ -14,7 +14,9 @@ function CardComponent() {
           <Card.Body>
             <Card.Title>Margenrita Pizza</Card.Title>
             <Card.Text>Price: $19.99</Card.Text>
-            <Button variant="dark" className="w-100 text-center">Buy</Button>
+            <Button variant="dark" className="w-100 text-center">
+              Buy
+            </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }} className="mx-3">

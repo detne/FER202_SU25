@@ -16,6 +16,6 @@ root.render(
     <PersonDetail />
     <PeopleList />
     <PeopleTable />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 reportWebVitals();

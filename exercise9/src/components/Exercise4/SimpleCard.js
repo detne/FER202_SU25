@@ -1,9 +1,12 @@
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col } from "react-bootstrap";
 
 function SimpleCard({ item }) {
   return (
     <div className="d-flex justify-content-center my-4">
-      <Card className="shadow-sm p-4" style={{ maxWidth: '800px', width: '100%' }}>
+      <Card
+        className="shadow-sm p-4"
+        style={{ maxWidth: "800px", width: "100%" }}
+      >
         <Card.Body>
           <Row className="align-items-center">
             <Col md={6}>
@@ -11,9 +14,9 @@ function SimpleCard({ item }) {
                 src={item.imageUrl}
                 alt="FPT Logo"
                 style={{
-                  width: '100%',
-                  maxWidth: '150px',
-                  height: 'auto',
+                  width: "100%",
+                  maxWidth: "150px",
+                  height: "auto",
                 }}
               />
             </Col>

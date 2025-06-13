@@ -61,3 +61,4 @@ Build `FER202_SU25` from the source and install dependencies:
 
    ```bash
    git clone https://github.com/detne/FER202_SU25
+   ```
